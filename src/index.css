@@ -1319,3 +1319,16 @@ kbd {
 .skeleton-pulse {
   animation: pulse 1.5s ease-in-out infinite;
 }
+
+/* Focus Mode */
+.is-focus-mode .shell__topbar,
+.is-focus-mode .kpi-strip,
+.is-focus-mode .shell__controls,
+.is-focus-mode .shell__sidebar {
+  display: none !important;
+}
+
+.is-focus-mode .grid-container {
+  border: none !important;
+  border-radius: 0 !important;
+}
