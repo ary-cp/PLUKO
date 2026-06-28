@@ -211,7 +211,6 @@ export function NotificationHistoryPanel() {
     <article className="minipanel" style={{ flex: 1.5, display: 'flex', flexDirection: 'column', minHeight: 0, overflow: 'hidden' }}>
       <div className="minipanel__title" style={{ flexShrink: 0, display: 'flex', justifyContent: 'space-between' }}>
         <span>Notification History</span>
-        <span style={{color: 'var(--text-3)'}}>⚠️</span>
       </div>
       <div ref={ref} style={{ flex: 1, overflowY: 'auto', fontFamily: 'var(--font-mono)', fontSize: '10px', display: 'flex', flexDirection: 'column', paddingRight: '8px', minHeight: 0 }}>
         <div style={{ color: 'var(--text-3)', fontStyle: 'italic', margin: '4px 0' }}>No recent notifications.</div>

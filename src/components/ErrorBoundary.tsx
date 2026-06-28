@@ -59,7 +59,7 @@ export class ErrorBoundary extends Component<Props, State> {
       return (
         <div className="error-boundary">
           <div className="error-boundary__content">
-            <h1 className="error-boundary__title">⚠️ System Failure</h1>
+            <h1 className="error-boundary__title">System Failure</h1>
             <p className="error-boundary__msg">
               A critical error occurred in the React rendering tree.
             </p>
